@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(233, 47%, 7%);
+    box-sizing: border-box;
+
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: row;
+
+    width: 1200px;
+    height: 500px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    background-color: hsl(244, 38%, 16%);
+
+}
+
+.left-col {
+    
+    width: 50%;
+    max-height: 100%;
+
+    text-align: left;
+
+
+}
+
+.left-contents {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+h1 {
+
+    width: 50%;
+
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+
+    font-size: 40px;
+    font-weight: 700;
+
+    line-height: 1.3em;
+
+    margin-bottom: 0px;
+
+
+}
+
+h1 span {
+
+    color: hsl(277, 64%, 61%);
+
+}
+
+h5 {
+    display: flex;
+
+    width: 50%;
+
+    
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+
+    text-align: left;
+
+    margin-bottom: 32px;
+
+
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    display: flex;
+
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.stat1 h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.smaller {
+
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.8em;
+
+    text-align: left;
+    margin-top: 8px;
+    margin-right: 2em;
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.right-col {
+    
+    background-image: url(images/image-header-mobile.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: hsl(277, 64%, 61%);
+    opacity: .4;
+}
+
+.attribution {
+    width: 100%;
+    color: white;
+
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+
+    font-size: 12px;    
+}
+
+.attribution a {
+
+    text-decoration: none;
+    color: hsl(277, 64%, 61%);
+}
+
+/* @media screen and (max-width: 700px) {
+    .mainbody {
+        display: flex;
+        flex-direction: column;
+    
+        width: 80%;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        color: white;
+        background-color: hsl(244, 38%, 16%);
+    
+    }
+    
+} */
+
